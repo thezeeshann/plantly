@@ -1,4 +1,4 @@
-import { Text, View, StyleSheet, Button } from "react-native";
+import { View, StyleSheet, Button } from "react-native";
 import { useUserStore } from "@/store/userStore";
 
 export default function ProfileScreen() {
