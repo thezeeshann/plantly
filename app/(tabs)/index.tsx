@@ -8,6 +8,7 @@ import { PlantCard } from "@/components/PlantCard";
 export default function App() {
   const router = useRouter();
   const plants = usePlantStore((state) => state.plants);
+  console.log(plants);
 
   return (
     <FlatList
